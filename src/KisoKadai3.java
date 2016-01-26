@@ -75,13 +75,15 @@ import java.util.Scanner;
 
  public static void Newfile(){
      System.out.println( "ファイルを作成します。\nファイル名を入力してください。\n拡張子を必ずつけてください。(例: text.txt");
+
      String file = new java.util.Scanner(System.in).nextLine();
+
     File newfile = new File("C:\\Users\\internous\\" + file);
 
 
   try{
     if (newfile.createNewFile()){
-      System.out.println("ファイルの作成に成功しました");
+      System.out.println("ファイルの作成に成功しました。\nC:\\Users\\internousにファイルが作成されました。");
     }else{
       System.out.println("ファイルの作成に失敗しました");
     }

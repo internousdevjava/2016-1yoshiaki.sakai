@@ -13,10 +13,11 @@ public class KisoKadai1{
 		    // 九九の結果を表示。
 		    for( int i=1; i<=X; i++ ){
 		      for( int j=1; j<=Y; j++ ){
-		    	  System.out.println (i+"×"+j+"="+i*j);
+		    	  System.out.print (i*j+" ");
 		      }
 		      	  System.out.println();
 		    }
 	  }
 }
+
 
